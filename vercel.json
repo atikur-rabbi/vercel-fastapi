@@ -1,16 +1,4 @@
 {
-    "version": 2,
-    "public": false,
-    "builds": [{ "src": "api/index.py", "use": "@now/python" }],
-    "routes": [
-        { "src": "/api/(.*)", "dest": "api/index.py" }
-        { "src": "/", "dest": "api/index.py" },
-        { "src": "/example/(.*)", "dest": "api/index.py" },
-        { "src": "/docs", "dest": "api/index.py" },
-        { "src": "/openapi.json", "dest": "api/index.py" }
-    ]
-}
-{
   "routes": [
       { "src": "/", "dest": "api/index.py" },
       { "src": "/api/(.*)", "dest": "api/index.py" }]
