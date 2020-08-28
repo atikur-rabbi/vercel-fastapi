@@ -1,7 +1,7 @@
 # Vercel-FastApi
 
 An example template showing the use of Python's FastAPI framework to build serverless backends on Vercel.
-## Dos
+## Docs
 https://vercel-fastapi-nine.vercel.app/docs
 ## Demos
 https://vercel-fastapi-nine.vercel.app/
