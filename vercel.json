@@ -10,3 +10,8 @@
         { "src": "/openapi.json", "dest": "api/index.py" }
     ]
 }
+{
+  "routes": [
+      { "src": "/", "dest": "api/index.py" },
+      { "src": "/api/(.*)", "dest": "api/index.py" }]
+}
